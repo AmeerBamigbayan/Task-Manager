@@ -1,8 +1,11 @@
 const Header = () => {
   return (
-    <header>
-        <h1>Header</h1>
+    <header className="header">
+        <h1>Task Tracker</h1> 
+        <button className="btn">Add Task</button>
     </header>
+
+   
   )
 }
 
